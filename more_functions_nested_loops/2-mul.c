@@ -5,9 +5,9 @@
  * @a: First operand
  * @b: Second operand
  *
- * Return; Product of both operands
+ * Return: Product of both operands
  */
- int mul(int a, int b)
- {
-	 return (a*b);
- }
+int mul(int a, int b)
+{
+	return (a * b);
+}
