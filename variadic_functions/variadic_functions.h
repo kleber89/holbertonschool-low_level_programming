@@ -4,7 +4,17 @@
 #include <stdarg.h>
 #include <stdio.h>
 
-typedef struct printer{
+/**
+ * Printer variadic functions
+ * @a: First member
+ * @b: Second member
+ * @c: Third member
+ *
+ * Description: Longer description
+ */
+
+typedef struct printer
+{
 char *symbol;
 void (*print)(va_list arg);
 } printer_t;
